@@ -1,0 +1,27 @@
+body {
+    background-color: lightgoldenrodyellow;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive;
+    color: blue;
+  }
+  
+  .avatar {
+    text-align: center;
+  }
+  
+  h2 {
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: burlywood;
+    color: cornflowerblue;
+  }
+  
+  p {
+    text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    color: blueviolet;
+  }
+  
