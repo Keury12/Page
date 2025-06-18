@@ -1,27 +1,60 @@
 body {
-    background-color: lightgoldenrodyellow;
-  }
-  
-  h1 {
-    text-align: center;
-    font-family: 'Comic Sans MS', cursive;
-    color: blue;
-  }
-  
-  .avatar {
-    text-align: center;
-  }
-  
-  h2 {
-    text-align: left;
-    font-family: 'Times New Roman', Times, serif;
-    background-color: burlywood;
-    color: cornflowerblue;
-  }
-  
-  p {
-    text-align: justify;
-    font-family: 'Courier New', Courier, monospace;
-    color: blueviolet;
-  }
-  
+  background-color: lightgoldenrodyellow;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive;
+  color: blue;
+}
+
+.avatar {
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  background-color: burlywood;
+  color: cornflowerblue;
+}
+
+p {
+  text-align: justify;
+  font-family: 'Courier New', Courier, monospace;
+  color: blueviolet;
+}
+
+/* 🔶 Estilização com box model e sombra */
+.box-destaque {
+  border: 2px solid #d2b48c;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.3);
+  background-color: #fff8dc;
+}
+
+/* 🔗 Pseudoclasses para links */
+a {
+  color: darkblue;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: purple;
+}
+
+a:active {
+  color: red;
+}
+
+a:focus {
+  outline: 2px dashed orange;
+}
